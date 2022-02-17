@@ -1029,10 +1029,10 @@ async def bot_message(message: types.Message):
 		await bot.send_message(message.from_user.id, "https://telegra.ph/Present-Perfect-Continuous-02-06", reply_markup = nav.otherMenu24)
 
 	elif message.text == '✅ Past Simple':
-		await bot.send_message(message.from_user.id, "https://telegra.ph/Past-Simple-02-06")
+		await bot.send_message(message.from_user.id, "https://telegra.ph/Past-Simple-02-06", reply_markup = nav.otherMenu55)
 
 	elif message.text == '✅ Past Continuous':
-		await bot.send_message(message.from_user.id, "https://telegra.ph/Past-Continuous-02-06")
+		await bot.send_message(message.from_user.id, "https://telegra.ph/Past-Continuous-02-06", reply_markup = nav.otherMenu56)
 
 	elif message.text == '✅ Past Perfect':
 		await bot.send_message(message.from_user.id, "https://telegra.ph/Past-Perfect-02-06")
